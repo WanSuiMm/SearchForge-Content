@@ -1,0 +1,40 @@
+# Local databases, generated verification receipts and scratch state
+.local/
+state/
+evidence/
+benchmarks/**/runs/
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-wal
+*.db-shm
+*.jsonl
+*.parquet
+*.arrow
+*.csv
+
+# Python, Java, Node and build caches
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/target/
+**/node_modules/
+**/dist/
+**/build/
+**/.cache/
+components/content-platform/web/app.js
+
+# Credentials, local traces and model artifacts
+.env
+.env.*
+*.log
+*.pid
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx

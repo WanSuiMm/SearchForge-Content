@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:searchforge-content:content-event:v1",
+  "title": "Public content projection event v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "event_id", "event_type", "content_id", "version", "visibility", "author_id", "body", "published_at", "occurred_at", "source_uri"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "event_id": {"type": "string", "minLength": 1, "maxLength": 200},
+    "event_type": {"enum": ["content.published", "content.withdrawn"]},
+    "content_id": {"type": "string", "minLength": 1, "maxLength": 200},
+    "version": {"type": "integer", "minimum": 1, "maximum": 9223372036854775807},
+    "visibility": {"enum": ["public", "withdrawn"]},
+    "author_id": {"type": "string", "minLength": 1, "maxLength": 100},
+    "body": {"type": "string", "maxLength": 20000},
+    "published_at": {"type": "string", "minLength": 1, "maxLength": 128},
+    "occurred_at": {"type": "string", "minLength": 1, "maxLength": 128},
+    "source_uri": {"type": "string", "pattern": "^/v1/content/[^/?#]+$", "maxLength": 212}
+  },
+  "oneOf": [
+    {"properties": {"event_type": {"const": "content.published"}, "visibility": {"const": "public"}, "body": {"minLength": 1}}},
+    {"properties": {"event_type": {"const": "content.withdrawn"}, "visibility": {"const": "withdrawn"}, "body": {"const": ""}}}
+  ],
+  "$comment": "Source currently emits publication v1 only. Withdrawal is supported by the target projection, not by an end-to-end source API. source_uri must equal /v1/content/{content_id}; this cross-field constraint is checked by application code. The consumer may accept wider input bounds than this source emission profile."
+}

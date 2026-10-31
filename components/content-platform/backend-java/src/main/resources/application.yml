@@ -1,0 +1,88 @@
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  port: ${SERVER_PORT:8080}
+  max-http-request-header-size: 16KB
+  tomcat:
+    max-http-form-post-size: 64KB
+  error:
+    include-message: never
+    include-stacktrace: never
+    include-binding-errors: never
+
+spring:
+  application:
+    name: content-platform-java
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://127.0.0.1:5432/contentplatform}
+    username: ${SPRING_DATASOURCE_USERNAME:contentplatform}
+    password: ${SPRING_DATASOURCE_PASSWORD:}
+    hikari:
+      maximum-pool-size: ${CONTENTPLATFORM_DB_POOL_SIZE:16}
+      minimum-idle: 1
+      connection-timeout: 5000
+      validation-timeout: 3000
+  flyway:
+    enabled: true
+    locations: classpath:db/migration/common,classpath:db/migration/postgresql
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+  data:
+    redis:
+      host: ${CONTENTPLATFORM_REDIS_HOST:127.0.0.1}
+      port: ${CONTENTPLATFORM_REDIS_PORT:6379}
+      database: ${CONTENTPLATFORM_REDIS_DATABASE:0}
+      username: ${CONTENTPLATFORM_REDIS_USERNAME:}
+      password: ${CONTENTPLATFORM_REDIS_PASSWORD:}
+      connect-timeout: 2s
+      timeout: 2s
+  kafka:
+    bootstrap-servers: ${CONTENTPLATFORM_KAFKA_BOOTSTRAP_SERVERS:}
+    producer:
+      acks: all
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      properties:
+        enable.idempotence: true
+        delivery.timeout.ms: 15000
+        request.timeout.ms: 10000
+        max.block.ms: 10000
+    consumer:
+      enable-auto-commit: false
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      auto-offset-reset: earliest
+    listener:
+      ack-mode: manual
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: never
+
+contentplatform:
+  session-ttl-seconds: ${CONTENTPLATFORM_SESSION_TTL_SECONDS:86400}
+  projection:
+    token: ${CONTENTPLATFORM_PROJECTION_TOKEN:}
+    consumer-id: ${CONTENTPLATFORM_PROJECTION_CONSUMER_ID:searchforge-content-v1}
+  cache:
+    mode: ${CONTENTPLATFORM_CACHE_MODE:off}
+    key-prefix: ${CONTENTPLATFORM_REDIS_KEY_PREFIX:contentplatform:v1}
+    ttl: ${CONTENTPLATFORM_REDIS_TTL:2s}
+  events:
+    delivery: db
+    topic: ${CONTENTPLATFORM_KAFKA_TOPIC:content.events}
+    dlq-topic: ${CONTENTPLATFORM_KAFKA_DLQ_TOPIC:content.events.dlq}
+    consumer-group: ${CONTENTPLATFORM_KAFKA_CONSUMER_GROUP:contentplatform-notifications-v1}
+    relay-delay: ${CONTENTPLATFORM_KAFKA_RELAY_DELAY:500ms}
+    retry-delay: ${CONTENTPLATFORM_KAFKA_RETRY_DELAY:1s}
+  static-root: ${CONTENTPLATFORM_STATIC_ROOT:}
+
+logging:
+  level:
+    org.springframework.web: WARN
+    org.springframework.security: WARN

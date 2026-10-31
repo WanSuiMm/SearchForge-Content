@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "project": "SearchForge Content",
+  "package_root": "project_SearchForgeContent/github_public",
+  "includes": [
+    {"source": "project_SearchForgeContent/github_public/.gitignore", "destination": ".gitignore"},
+    {"source": "project_SearchForgeContent/github_public/README.md", "destination": "README.md"},
+    {"source": "project_SearchForgeContent/github_public/GPT_CONTEXT.md", "destination": "GPT_CONTEXT.md"},
+    {"source": "project_SearchForgeContent/github_public/RESULTS.md", "destination": "RESULTS.md"},
+    {"source": "project_SearchForgeContent/github_public/ARCHITECTURE.md", "destination": "ARCHITECTURE.md"},
+    {"source": "project_SearchForgeContent/github_public/PACKAGE_PLAN.json", "destination": "PACKAGE_PLAN.json"},
+    {"source": "project_SearchForgeContent/github_public/pyproject.toml", "destination": "pyproject.toml"},
+    {"source": "project_SearchForgeContent/src", "destination": "src"},
+    {"source": "project_ReportForge/reportforge/__init__.py", "destination": "src/searchforge_content/retrieval/reportforge/__init__.py"},
+    {"source": "project_ReportForge/reportforge/corpus.py", "destination": "src/searchforge_content/retrieval/reportforge/corpus.py"},
+    {"source": "project_ReportForge/reportforge/models.py", "destination": "src/searchforge_content/retrieval/reportforge/models.py"},
+    {"source": "project_ReportForge/reportforge/retrieval.py", "destination": "src/searchforge_content/retrieval/reportforge/retrieval.py"},
+    {"source": "project_SearchForgeContent/github_public/src/searchforge_content/retrieval/__init__.py", "destination": "src/searchforge_content/retrieval/__init__.py"},
+    {"source": "project_SearchForgeContent/benchmarks/aligned_full_freshstack_20261031_r02/ce_windowing.py", "destination": "src/searchforge_content/retrieval/r02/ce_windowing.py"},
+    {"source": "project_SearchForgeContent/github_public/src/searchforge_content/retrieval/r02/__init__.py", "destination": "src/searchforge_content/retrieval/r02/__init__.py"},
+    {"source": "project_SearchForgeContent/github_public/components/retrieval/README.md", "destination": "components/retrieval/README.md"},
+    {"source": "project_SearchForgeContent/contracts/content-event-v1.schema.json", "destination": "contracts/content-event-v1.schema.json"},
+    {"source": "project_SearchForgeContent/configs/default.example.json", "destination": "configs/default.example.json"},
+    {"source": "project_SearchForgeContent/scripts/content.py", "destination": "scripts/content.py"},
+    {"source": "project_SearchForgeContent/scripts/verify.py", "destination": "scripts/verify.py"},
+    {"source": "project_SearchForgeContent/tests/test_integration.py", "destination": "tests/test_integration.py"},
+    {"source": "project_SearchForge/src/searchforge/community", "destination": "components/searchforge/src/searchforge/community"},
+    {"source": "project_SearchForge/tests/test_community_projection.py", "destination": "components/searchforge/tests/test_community_projection.py"},
+    {"source": "project_ContentPlatform/src/content_platform", "destination": "components/content-platform/src/content_platform"},
+    {"source": "project_ContentPlatform/scripts/server.py", "destination": "components/content-platform/scripts/server.py"},
+    {"source": "project_ContentPlatform/pyproject.toml", "destination": "components/content-platform/pyproject.toml"},
+    {"source": "project_ContentPlatform/tests/test_projection.py", "destination": "components/content-platform/tests/test_projection.py"},
+    {"source": "project_ContentPlatform/tests/test_platform.py", "destination": "components/content-platform/tests/test_platform.py"},
+    {"source": "project_ContentPlatform/tests/test_postgres_storage.py", "destination": "components/content-platform/tests/test_postgres_storage.py"},
+    {"source": "project_ContentPlatform/tests/test_http_service.py", "destination": "components/content-platform/tests/test_http_service.py"},
+    {"source": "project_ContentPlatform/backend-java/pom.xml", "destination": "components/content-platform/backend-java/pom.xml"},
+    {"source": "project_ContentPlatform/backend-java/src", "destination": "components/content-platform/backend-java/src"},
+    {"source": "project_ContentPlatform/web/index.html", "destination": "components/content-platform/web/index.html"},
+    {"source": "project_ContentPlatform/web/styles.css", "destination": "components/content-platform/web/styles.css"},
+    {"source": "project_ContentPlatform/web/src", "destination": "components/content-platform/web/src"},
+    {"source": "project_ContentPlatform/web/scripts/copy-bundle.mjs", "destination": "components/content-platform/web/scripts/copy-bundle.mjs"},
+    {"source": "project_ContentPlatform/web/package.json", "destination": "components/content-platform/web/package.json"},
+    {"source": "project_ContentPlatform/web/package-lock.json", "destination": "components/content-platform/web/package-lock.json"},
+    {"source": "project_ContentPlatform/web/tsconfig.json", "destination": "components/content-platform/web/tsconfig.json"},
+    {"source": "project_ContentPlatform/web/vite.config.ts", "destination": "components/content-platform/web/vite.config.ts"},
+    {"source": "project_ContentPlatform/web/README.md", "destination": "components/content-platform/web/README.md"}
+  ],
+  "excludes": [
+    "project_SearchForgeContent/benchmarks/**/received/**",
+    "project_SearchForgeContent/benchmarks/**/runs/**",
+    "project_SearchForgeContent/benchmarks/**/indexes/**",
+    "project_SearchForgeContent/benchmarks/**/cache/**",
+    "project_SearchForgeContent/benchmarks/**/source_runs/**",
+    "project_SearchForgeContent/benchmarks/**/normalized_runs/**",
+    "project_SearchForgeContent/benchmarks/**/corpora/**",
+    "project_SearchForgeContent/benchmarks/aligned_full_freshstack_20261031_r02/run_aligned_retrieval.py",
+    "project_SearchForgeContent/benchmarks/aligned_full_freshstack_20261031_r02/dispatch_pipeline.py",
+    "project_SearchForgeContent/benchmarks/aligned_full_freshstack_20261031_r02/deployment_plan.json",
+    "project_ReportForge/fixtures/**",
+    "project_ReportForge/checks/**",
+    "project_ReportForge/examples/**",
+    "project_ReportForge/servers/**",
+    "project_ReportForge/reportforge/cli.py",
+    "project_ReportForge/reportforge/evaluation.py",
+    "project_ReportForge/reportforge/generation.py",
+    "project_ReportForge/reportforge/judge.py",
+    "project_ReportForge/reportforge/workflow.py",
+    "project_ReportForge/reportforge/__main__.py",
+    "project_SearchForgeContent/evidence/**",
+    "project_SearchForgeContent/state/**",
+    "project_SearchForgeContent/project.json",
+    "project_SearchForgeContent/components.json",
+    "project_SearchForgeContent/PROJECT_LAYOUT.md",
+    "project_SearchForgeContent/PROJECT.md",
+    "project_SearchForgeContent/docs/**",
+    "project_SearchForgeContent/scripts/project.py",
+    "project_SearchForgeContent/PHENOMENON_DISCOVERY.md",
+    "project_SearchForgeContent/LIMITATIONS.md",
+    "project_ContentPlatform/.venv/**",
+    "project_ContentPlatform/src/content_platform.egg-info/**",
+    "project_ContentPlatform/evidence/**",
+    "project_ContentPlatform/benchmarks/**",
+    "project_ContentPlatform/backend-java/README.md",
+    "project_ContentPlatform/backend-java/target/**",
+    "project_ContentPlatform/web/app.js",
+    "project_ContentPlatform/web/dist/**",
+    "project_ContentPlatform/web/node_modules/**",
+    "**/.git/**",
+    "**/.venv/**",
+    "**/venv/**",
+    "**/__pycache__/**",
+    "**/.pytest_cache/**",
+    "**/.cache/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/target/**",
+    "**/build/**",
+    "**/*.sqlite",
+    "**/*.sqlite3",
+    "**/*.sqlite3-wal",
+    "**/*.sqlite3-shm",
+    "**/*.db",
+    "**/*.db-wal",
+    "**/*.db-shm",
+    "**/*.jsonl",
+    "**/*.parquet",
+    "**/*.arrow",
+    "**/*.pt",
+    "**/*.pth",
+    "**/*.ckpt",
+    "**/*.safetensors",
+    "**/*.gguf",
+    "**/*.log",
+    "**/*.pid",
+    "**/.env",
+    "**/.env.*",
+    "**/*credentials*",
+    "**/*token*"
+  ],
+  "replacements": [
+    {
+      "path": "src/README.md",
+      "old": "../docs/ARCHITECTURE.md",
+      "new": "../ARCHITECTURE.md"
+    },
+    {
+      "path": "scripts/content.py",
+      "old": "sys.path[:0] = [str(ROOT / \"src\"), str(ROOT.parent / \"project_SearchForge\" / \"src\")]",
+      "new": "sys.path[:0] = [str(ROOT / \"src\"), str(ROOT / \"components\" / \"searchforge\" / \"src\")]"
+    },
+    {
+      "path": "scripts/verify.py",
+      "old": "WORKSPACE = ROOT.parent\nsys.path[:0] = [str(ROOT / \"src\"), str(WORKSPACE / \"project_SearchForge/src\"),\n               str(WORKSPACE / \"project_ContentPlatform/src\")]",
+      "new": "sys.path[:0] = [str(ROOT / \"src\"), str(ROOT / \"components/searchforge/src\"),\n               str(ROOT / \"components/content-platform/src\")]"
+    },
+    {
+      "path": "scripts/verify.py",
+      "old": "(\"source_projection\", \"project_ContentPlatform/tests/test_projection.py\"),\n    (\"source_platform\", \"project_ContentPlatform/tests/test_platform.py\"),\n    (\"source_postgres_shape\", \"project_ContentPlatform/tests/test_postgres_storage.py\"),\n    (\"source_http\", \"project_ContentPlatform/tests/test_http_service.py\"),\n    (\"target_projection\", \"project_SearchForge/tests/test_community_projection.py\"),\n    (\"cross_service\", \"project_SearchForgeContent/tests/test_integration.py\"),",
+      "new": "(\"source_projection\", \"components/content-platform/tests/test_projection.py\"),\n    (\"source_platform\", \"components/content-platform/tests/test_platform.py\"),\n    (\"source_postgres_shape\", \"components/content-platform/tests/test_postgres_storage.py\"),\n    (\"source_http\", \"components/content-platform/tests/test_http_service.py\"),\n    (\"target_projection\", \"components/searchforge/tests/test_community_projection.py\"),\n    (\"cross_service\", \"tests/test_integration.py\"),"
+    },
+    {
+      "path": "scripts/verify.py",
+      "old": "WORKSPACE / \"project_SearchForge/src/searchforge/community\"",
+      "new": "ROOT / \"components/searchforge/src/searchforge/community\""
+    },
+    {
+      "path": "scripts/verify.py",
+      "old": "path.relative_to(WORKSPACE).as_posix()",
+      "new": "path.relative_to(ROOT).as_posix()"
+    },
+    {
+      "path": "scripts/verify.py",
+      "old": "WORKSPACE / \"project_ContentPlatform/src/content_platform\" / relative",
+      "new": "ROOT / \"components/content-platform/src/content_platform\" / relative"
+    },
+    {
+      "path": "scripts/verify.py",
+      "old": "WORKSPACE / relative",
+      "new": "ROOT / relative"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "old": "sys.path[:0] = [str(ROOT / \"src\"), str(ROOT.parent / \"project_SearchForge\" / \"src\"),\n               str(ROOT.parent / \"project_ContentPlatform\" / \"src\")]",
+      "new": "sys.path[:0] = [str(ROOT / \"src\"), str(ROOT / \"components/searchforge\" / \"src\"),\n               str(ROOT / \"components/content-platform\" / \"src\")]"
+    }
+  ],
+  "optional_dependencies": {
+    "retrieval": [
+      "numpy>=1.26",
+      "faiss-cpu>=1.8",
+      "sentence-transformers>=3.0"
+    ],
+    "retrieval_source": "project_ReportForge/pyproject.toml [project.optional-dependencies].retrieval"
+  },
+  "attribution_map": [
+    {
+      "origin": "project_SearchForgeContent/src, scripts/content.py, scripts/verify.py, tests/test_integration.py, contracts/content-event-v1.schema.json",
+      "destination": "SearchForge Content-owned root paths",
+      "change": "Only the two explicit sibling import roots, verifier test/hash roots, and integration test import roots are rewritten. Preserve behavior and source history in the attributed mapping."
+    },
+    {
+      "origin": "project_SearchForge/src/searchforge/community",
+      "destination": "components/searchforge/src/searchforge/community",
+      "change": "Keep the component name and package path; do not copy the rest of SearchForge or its model/commerce modules."
+    },
+    {
+      "origin": "project_ReportForge/reportforge/__init__.py, corpus.py, models.py, retrieval.py",
+      "destination": "src/searchforge_content/retrieval/reportforge/",
+      "change": "Keep existing method code and relative imports unchanged. This source supplies BM25, FAISS/SentenceTransformers dense retrieval, RRF, and optional CrossEncoder reranking. It is a general library, not the R02 runner. Upstream project metadata declares MIT; no standalone license text was found in that source root."
+    },
+    {
+      "origin": "project_SearchForgeContent/benchmarks/aligned_full_freshstack_20261031_r02/ce_windowing.py",
+      "destination": "src/searchforge_content/retrieval/r02/ce_windowing.py",
+      "change": "Keep the pure overflow-safe ranking helper; do not copy the bound runner, corpus, model cache, run manifests, query/qrels files, or deployment configuration. This helper is not wired into the ReportForge Retriever."
+    },
+    {
+      "origin": "project_ContentPlatform/src/content_platform, scripts/server.py, pyproject.toml, backend-java and selected tests/web sources",
+      "destination": "components/content-platform/",
+      "change": "Preserve source ownership in the path. Do not merge its database with the SearchForge index. Exclude workspace-only project docs and the built React bundle."
+    }
+  ],
+  "external_http_contracts": [
+    {
+      "name": "ContentPlatform projection source",
+      "contract": "contracts/content-event-v1.schema.json and the internal events/ack/content/resolve routes documented in ARCHITECTURE.md",
+      "configuration": "operator supplies --source-url and a dedicated token through a named environment variable",
+      "constraint": "No direct database access; non-loopback origins require HTTPS; no endpoint host is embedded in the package."
+    },
+    {
+      "name": "Other C1/C2 services",
+      "contract": "No current C3 runtime client is present; any future integration must be declared as a versioned HTTP contract with explicit auth and failure semantics.",
+      "constraint": "Do not copy sibling services or add cross-project Python imports/shared database access."
+    }
+  ],
+  "rights_and_redistribution": [
+    "No unified package-wide relicensing term has been selected. The SearchForge Content, SearchForge and ContentPlatform roots have no LICENSE/COPYING/NOTICE file; ReportForge's pyproject metadata declares MIT, though no standalone license text was present in the inspected source root. Preserve component attribution and do not imply the ReportForge term covers every component.",
+    "Keep the npm and Maven dependency manifests, but do not vendor node_modules, generated React app.js, dist output, target output, or dependency caches. If a compiled frontend bundle or jar is later distributed, include the applicable third-party notices.",
+    "Do not include corpora, source snapshots, queries, qrels, source aliases, indexes, embeddings, SQLite databases or per-query results. FreshStack data is marked CC BY-SA 4.0 in its dataset card, while its underlying repositories may have different terms; each other corpus source also retains its own terms."
+  ],
+  "materialization_checks": [
+    "Before publication, re-check the exact staged file list, file sizes, generated files, tokens, local paths and host identifiers.",
+    "After the source copies and path rewrites are complete, verify the event contract link and all Markdown links from this package root.",
+    "The documented fresh-database functional check is available to reviewers; this packaging pass did not execute code, tests, services, models or experiments.",
+    "No Java-to-C3 end-to-end receipt exists in the current C3 evidence; treat Java API compatibility as a documented contract, not an executed integration result."
+  ]
+}

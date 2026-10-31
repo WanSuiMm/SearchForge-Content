@@ -1,0 +1,849 @@
+{
+  "schema_version": 1,
+  "project": "SearchForge Content",
+  "prepared_on": "2026-10-31",
+  "files": [
+    {
+      "source": "project_SearchForgeContent/github_public/.gitignore",
+      "path": ".gitignore",
+      "source_sha256": "7301c25d7d9ec9828db7d1a14821103cfbc7561d4924a06139d74e58c3ca70ca",
+      "sha256": "7301c25d7d9ec9828db7d1a14821103cfbc7561d4924a06139d74e58c3ca70ca",
+      "bytes": 524
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/README.md",
+      "path": "README.md",
+      "source_sha256": "b01d05d4a8f11f1a90d9ecabf1f2d2538285f9f789593b9e8c3a6180f2ec202c",
+      "sha256": "b01d05d4a8f11f1a90d9ecabf1f2d2538285f9f789593b9e8c3a6180f2ec202c",
+      "bytes": 6209
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/GPT_CONTEXT.md",
+      "path": "GPT_CONTEXT.md",
+      "source_sha256": "9491d93bf94580044def7a204637f19172b5c8d0289eb988b997d5927412126a",
+      "sha256": "9491d93bf94580044def7a204637f19172b5c8d0289eb988b997d5927412126a",
+      "bytes": 5067
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/RESULTS.md",
+      "path": "RESULTS.md",
+      "source_sha256": "e7f14985437641c7d5d3c3cab4207ec6d0b32298cc148299a04d84672f4c29b3",
+      "sha256": "e7f14985437641c7d5d3c3cab4207ec6d0b32298cc148299a04d84672f4c29b3",
+      "bytes": 5058
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/ARCHITECTURE.md",
+      "path": "ARCHITECTURE.md",
+      "source_sha256": "5b4cf8c7dd11cd8105ec0c521d11aacdfe9a7f2e098a113de21160398f54c036",
+      "sha256": "5b4cf8c7dd11cd8105ec0c521d11aacdfe9a7f2e098a113de21160398f54c036",
+      "bytes": 9362
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/PACKAGE_PLAN.json",
+      "path": "PACKAGE_PLAN.json",
+      "source_sha256": "46ecabd6c2537bc1e0f8c46d97c1f6335845ae24b21e2e8b809642b0d9abcde8",
+      "sha256": "46ecabd6c2537bc1e0f8c46d97c1f6335845ae24b21e2e8b809642b0d9abcde8",
+      "bytes": 15838
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/pyproject.toml",
+      "path": "pyproject.toml",
+      "source_sha256": "63a399f2f6c516fee58f2a0d12b34be2de40624f7b29c5a7f595748a02b335ed",
+      "sha256": "63a399f2f6c516fee58f2a0d12b34be2de40624f7b29c5a7f595748a02b335ed",
+      "bytes": 445
+    },
+    {
+      "source": "project_SearchForgeContent/src/README.md",
+      "path": "src/README.md",
+      "source_sha256": "2ad5efc52f09f478a843185bf06098208f4f7def60f73b0e631067cc062c35ca",
+      "sha256": "531c879d5f97e302885dcd0f1ce663bc94485fdce25242e1c37edd108b61a582",
+      "bytes": 362
+    },
+    {
+      "source": "project_SearchForgeContent/src/searchforge_content/__init__.py",
+      "path": "src/searchforge_content/__init__.py",
+      "source_sha256": "585f65b8763b9fc54de6e6c25d4b6ed8f9d93ade3b9c709af8bd5f06553e4a51",
+      "sha256": "585f65b8763b9fc54de6e6c25d4b6ed8f9d93ade3b9c709af8bd5f06553e4a51",
+      "bytes": 77
+    },
+    {
+      "source": "project_SearchForgeContent/src/searchforge_content/http_service.py",
+      "path": "src/searchforge_content/http_service.py",
+      "source_sha256": "6e779c65e4c10e9be7b0d3d44951e81ab94dee6cf090360725647b33ad462974",
+      "sha256": "6e779c65e4c10e9be7b0d3d44951e81ab94dee6cf090360725647b33ad462974",
+      "bytes": 4783
+    },
+    {
+      "source": "project_SearchForgeContent/src/searchforge_content/runtime.py",
+      "path": "src/searchforge_content/runtime.py",
+      "source_sha256": "60c9e658d58951f94cfa6b6402d4cb45a5277f3759f68c88eed5f7fec0308957",
+      "sha256": "60c9e658d58951f94cfa6b6402d4cb45a5277f3759f68c88eed5f7fec0308957",
+      "bytes": 4554
+    },
+    {
+      "source": "project_SearchForgeContent/src/searchforge_content/source.py",
+      "path": "src/searchforge_content/source.py",
+      "source_sha256": "4c1887efca140884babf6c9494315b19a8e0191b235364fe5648d7852551e296",
+      "sha256": "4c1887efca140884babf6c9494315b19a8e0191b235364fe5648d7852551e296",
+      "bytes": 7246
+    },
+    {
+      "source": "project_ReportForge/reportforge/__init__.py",
+      "path": "src/searchforge_content/retrieval/reportforge/__init__.py",
+      "source_sha256": "f0590aa942073cc7d148de8365eabb09dd258d997de3580d084043e9dc5afe44",
+      "sha256": "f0590aa942073cc7d148de8365eabb09dd258d997de3580d084043e9dc5afe44",
+      "bytes": 86
+    },
+    {
+      "source": "project_ReportForge/reportforge/corpus.py",
+      "path": "src/searchforge_content/retrieval/reportforge/corpus.py",
+      "source_sha256": "8b4278dfb36dee16046b445d8bba1ddcd90446a72fd62fd4ca6de6cb2b944937",
+      "sha256": "8b4278dfb36dee16046b445d8bba1ddcd90446a72fd62fd4ca6de6cb2b944937",
+      "bytes": 6418
+    },
+    {
+      "source": "project_ReportForge/reportforge/models.py",
+      "path": "src/searchforge_content/retrieval/reportforge/models.py",
+      "source_sha256": "23d17c9f968b96f25f9737238b49edae1dbdd17dad17ef7ce144f433b5c51463",
+      "sha256": "23d17c9f968b96f25f9737238b49edae1dbdd17dad17ef7ce144f433b5c51463",
+      "bytes": 1617
+    },
+    {
+      "source": "project_ReportForge/reportforge/retrieval.py",
+      "path": "src/searchforge_content/retrieval/reportforge/retrieval.py",
+      "source_sha256": "522735abdde7c0d2c00b87fd3656bb1203f29b90e8bf586b5b0d67c3642229a5",
+      "sha256": "522735abdde7c0d2c00b87fd3656bb1203f29b90e8bf586b5b0d67c3642229a5",
+      "bytes": 18347
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/src/searchforge_content/retrieval/__init__.py",
+      "path": "src/searchforge_content/retrieval/__init__.py",
+      "source_sha256": "16611a2450be3f0fc0e8e2e142577eea009d0a777ef3e86b2e4cbb99294d3a3d",
+      "sha256": "16611a2450be3f0fc0e8e2e142577eea009d0a777ef3e86b2e4cbb99294d3a3d",
+      "bytes": 81
+    },
+    {
+      "source": "project_SearchForgeContent/benchmarks/aligned_full_freshstack_20261031_r02/ce_windowing.py",
+      "path": "src/searchforge_content/retrieval/r02/ce_windowing.py",
+      "source_sha256": "717cacb2f691952384dd5e416c6ea9c68cc682240c7175242ca9243ea716c658",
+      "sha256": "717cacb2f691952384dd5e416c6ea9c68cc682240c7175242ca9243ea716c658",
+      "bytes": 22081
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/src/searchforge_content/retrieval/r02/__init__.py",
+      "path": "src/searchforge_content/retrieval/r02/__init__.py",
+      "source_sha256": "3dbf80359b0c6e355edf5b79e5217fa5ea9599b4d98d1f66e473c95672883bc1",
+      "sha256": "3dbf80359b0c6e355edf5b79e5217fa5ea9599b4d98d1f66e473c95672883bc1",
+      "bytes": 75
+    },
+    {
+      "source": "project_SearchForgeContent/github_public/components/retrieval/README.md",
+      "path": "components/retrieval/README.md",
+      "source_sha256": "e6bfe8208ab4856076bcab75c42be7b560cfc0b8f6b9d34d27577548246c7c0f",
+      "sha256": "e6bfe8208ab4856076bcab75c42be7b560cfc0b8f6b9d34d27577548246c7c0f",
+      "bytes": 2238
+    },
+    {
+      "source": "project_SearchForgeContent/contracts/content-event-v1.schema.json",
+      "path": "contracts/content-event-v1.schema.json",
+      "source_sha256": "4f911c827a61a2235a90c399e6976a0193a90bb4aebdc78cf2b230bf9cb579d0",
+      "sha256": "4f911c827a61a2235a90c399e6976a0193a90bb4aebdc78cf2b230bf9cb579d0",
+      "bytes": 1758
+    },
+    {
+      "source": "project_SearchForgeContent/configs/default.example.json",
+      "path": "configs/default.example.json",
+      "source_sha256": "38678766f39cdcad1c99228aab639cc6f847cce7610608e0c6de3f5326251378",
+      "sha256": "38678766f39cdcad1c99228aab639cc6f847cce7610608e0c6de3f5326251378",
+      "bytes": 183
+    },
+    {
+      "source": "project_SearchForgeContent/scripts/content.py",
+      "path": "scripts/content.py",
+      "source_sha256": "228e7a41ba55219a3488561bd234b276e69ee74777b20490c701c4bc9e21d962",
+      "sha256": "bc01d4d2890f591ae1b696badaf1afd13436b7d0dd7af9586411e26a411bc362",
+      "bytes": 3824
+    },
+    {
+      "source": "project_SearchForgeContent/scripts/verify.py",
+      "path": "scripts/verify.py",
+      "source_sha256": "70dca20aebde1ed7f35b2b15845146e91514ae332fd67808c44df8063a5f2e7d",
+      "sha256": "7c444b16bb475c7e11e66eea8502e0056fc0aff0262d8f0ed7e13b2b9b1d7c4c",
+      "bytes": 4292
+    },
+    {
+      "source": "project_SearchForgeContent/tests/test_integration.py",
+      "path": "tests/test_integration.py",
+      "source_sha256": "1517f039ad2d7972b1f150f08f9611ec209eb49b07f7b76fe3565aa3d8df9a8e",
+      "sha256": "d96d8bf0f666461271080745c71a10dd5c94f3d809e1de9d35510c3037d48acb",
+      "bytes": 13068
+    },
+    {
+      "source": "project_SearchForge/src/searchforge/community/__init__.py",
+      "path": "components/searchforge/src/searchforge/community/__init__.py",
+      "source_sha256": "f7ddde8b38c7956abcd636b0d5f1d62f4be389e0f22d3508dfbc9477008e014d",
+      "sha256": "f7ddde8b38c7956abcd636b0d5f1d62f4be389e0f22d3508dfbc9477008e014d",
+      "bytes": 170
+    },
+    {
+      "source": "project_SearchForge/src/searchforge/community/index.py",
+      "path": "components/searchforge/src/searchforge/community/index.py",
+      "source_sha256": "0489bc8407d1622b55175090342a040001ef4db15320447f5dfc913fe29cf1af",
+      "sha256": "0489bc8407d1622b55175090342a040001ef4db15320447f5dfc913fe29cf1af",
+      "bytes": 21728
+    },
+    {
+      "source": "project_SearchForge/tests/test_community_projection.py",
+      "path": "components/searchforge/tests/test_community_projection.py",
+      "source_sha256": "a198e97bd104deb25b7a41c2c80c220ed064dd8a612cb9fa9641ff62891db901",
+      "sha256": "a198e97bd104deb25b7a41c2c80c220ed064dd8a612cb9fa9641ff62891db901",
+      "bytes": 10564
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/__init__.py",
+      "path": "components/content-platform/src/content_platform/__init__.py",
+      "source_sha256": "b00fe1eb85cea43c8a49efe144133fb862a0e147c36b6f8e5965af2851ea93bb",
+      "sha256": "56e10c09d3843676e5af5490b1f51f08b17e3f90ccec49b1b6426f18cb8b927f",
+      "bytes": 100
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/api/__init__.py",
+      "path": "components/content-platform/src/content_platform/api/__init__.py",
+      "source_sha256": "92c0dedff078cba82e4d02e7d95ebb11440ce860b2954ae4bf1baab36758b08c",
+      "sha256": "b43751b4c626d3e352b0fa855af4742bb8f205ec278b1f6799f829ccd84d710c",
+      "bytes": 52
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/api/facade.py",
+      "path": "components/content-platform/src/content_platform/api/facade.py",
+      "source_sha256": "652dfce73b69904cba9085aa26a8bcaa851795288d49bc182d49b1e1f48146ba",
+      "sha256": "814c1b0c323f5782995d7216e2592fc832592cb74933a6e925ab73addeb81c54",
+      "bytes": 2952
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/api/http_service.py",
+      "path": "components/content-platform/src/content_platform/api/http_service.py",
+      "source_sha256": "370f0b3f4b7f9bd12106bfefb21764a5e571630d31fb1ca826764eab298c83ff",
+      "sha256": "370f0b3f4b7f9bd12106bfefb21764a5e571630d31fb1ca826764eab298c83ff",
+      "bytes": 35353
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/application.py",
+      "path": "components/content-platform/src/content_platform/application.py",
+      "source_sha256": "27c45f853b43460b77d801d05c07fcb18c07abca5ae61e119287d5f2ca486577",
+      "sha256": "357e4069397b70184e0a2ec2c4b50695d6298b97bf66ac4fb2400670168b03d3",
+      "bytes": 2680
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/cache/__init__.py",
+      "path": "components/content-platform/src/content_platform/cache/__init__.py",
+      "source_sha256": "89e4911c917069338fe1994df18309dea8a5f31c4a25c92d549b4b27746a292c",
+      "sha256": "41585dbfcb3f95be4c2ee182ceac34901f8535f4fed0acc74084045e66c8e7cd",
+      "bytes": 83
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/cache/local.py",
+      "path": "components/content-platform/src/content_platform/cache/local.py",
+      "source_sha256": "d3d61e3db453443806b323fe31abc26de50b7ec6f1874a4284faea0f1f0099dc",
+      "sha256": "7ac5a377ad6522e96109c77d42d6a86fac10bdbf8101af132475ced490cc01fd",
+      "bytes": 3208
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/cache/port.py",
+      "path": "components/content-platform/src/content_platform/cache/port.py",
+      "source_sha256": "0d9d63c210299be8683f7502823f9ae44f0a68f1b3928118931189216efdd8f4",
+      "sha256": "a1cf878f0aa5017b0e7c46116dfd24286e1bf796a642ed4fbb95a9bb0a94e582",
+      "bytes": 942
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/cache/redis.py",
+      "path": "components/content-platform/src/content_platform/cache/redis.py",
+      "source_sha256": "a8d9ec2869c0350622e7f7314ec9b745a18929e55afafb9bb2dd708ccdf5633f",
+      "sha256": "a8d9ec2869c0350622e7f7314ec9b745a18929e55afafb9bb2dd708ccdf5633f",
+      "bytes": 14788
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/content/__init__.py",
+      "path": "components/content-platform/src/content_platform/content/__init__.py",
+      "source_sha256": "7df0882d66bde2c02f6b9eceb625675cc765ae9355ade271de0e2d4956098d6c",
+      "sha256": "372408bcf124310e60e1fc23ff049e4d5c81977d6efd2c770be2c5f561062c30",
+      "bytes": 57
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/content/service.py",
+      "path": "components/content-platform/src/content_platform/content/service.py",
+      "source_sha256": "1609115096cdfdaae7e01d0fc1fad4bf4b6b247f0d52c0e2255ace3c492fb1a1",
+      "sha256": "e3f64f1aaf4adfbddbe96c5ecf6e1ef7fa5da4d4f2513d07ba3ad4775a4a7d70",
+      "bytes": 1749
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/contracts.py",
+      "path": "components/content-platform/src/content_platform/contracts.py",
+      "source_sha256": "cab7154f182b8169d5631fdf0ddf508ab90219c40ca2d1df96df9189b01fe97f",
+      "sha256": "959e205dcbb45f70fde2dbbbd9310fafbff4aca7c808cdefe2337f8551a5f686",
+      "bytes": 1294
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/errors.py",
+      "path": "components/content-platform/src/content_platform/errors.py",
+      "source_sha256": "8130a3cc0c6a34bd65fd6c16bd38d64de77173b56ead07db38ae136d096e7516",
+      "sha256": "3e359429bea6a73852fde7711286ed91b0b5b7043add558ac70bf1254f515121",
+      "bytes": 903
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/feed/__init__.py",
+      "path": "components/content-platform/src/content_platform/feed/__init__.py",
+      "source_sha256": "f9fd9c3591683ed809653b8a9aa0526b0f9e98960f2514902d4052388b10e5ca",
+      "sha256": "29d988bd6b8665b095bda3ffeb3efe4aa25331a6f2b19357a81e99b5eee2de21",
+      "bytes": 53
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/feed/cursor.py",
+      "path": "components/content-platform/src/content_platform/feed/cursor.py",
+      "source_sha256": "273d8a96ca1d2659063aec7aaa635422d86c3a1440b968462439aab69fa06e43",
+      "sha256": "1a3fbe8b8f01c066309ee0edf8d0813e533486eb1ef6ec8d6a333c085f81144b",
+      "bytes": 1329
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/feed/service.py",
+      "path": "components/content-platform/src/content_platform/feed/service.py",
+      "source_sha256": "ace16f4c260ca503ecf3dd0437e9e538487182a1226eb14ce97f0986da251efa",
+      "sha256": "dedab1707b67cd59d2eb2627e506ee4bb610911eebf2ac5a14ef1cacd878baa0",
+      "bytes": 1068
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/identity/__init__.py",
+      "path": "components/content-platform/src/content_platform/identity/__init__.py",
+      "source_sha256": "d7efce1db0458a13eeb73cf5ba99cf6a7242c86746d37a2354635e40d08b6d10",
+      "sha256": "9656162af6023bee4a9e93fb56975e9040faf069f49ee2af51f8ebd583e18402",
+      "bytes": 50
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/identity/auth.py",
+      "path": "components/content-platform/src/content_platform/identity/auth.py",
+      "source_sha256": "d1a06cf010cbbf0849c3c2f5d34450c7288b5e28489c12f59989b8a4c0ca347c",
+      "sha256": "d1a06cf010cbbf0849c3c2f5d34450c7288b5e28489c12f59989b8a4c0ca347c",
+      "bytes": 8927
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/identity/service.py",
+      "path": "components/content-platform/src/content_platform/identity/service.py",
+      "source_sha256": "0ed02d71bfa415b3618ba8dd67474f27ea795db4bdc3880d8361c6560dc92dac",
+      "sha256": "c06d4f585e12870dbf904a074d2ab611d24796b606197ff41dabd18a8e68b4e2",
+      "bytes": 1448
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/interaction/__init__.py",
+      "path": "components/content-platform/src/content_platform/interaction/__init__.py",
+      "source_sha256": "ef44ea15a4cb505dfcbdeb841a73bb64a7ad5147cc2cc44ccfe3b602103cb750",
+      "sha256": "debeeb34b62dbed204fbd8ed67a1ecd0b282ff48c04fbaea8b7af9164c2193a6",
+      "bytes": 54
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/interaction/service.py",
+      "path": "components/content-platform/src/content_platform/interaction/service.py",
+      "source_sha256": "5c02ebbc030f7d2cac9600135f524f1ea3e83b39848d4baa0f17a3824cea480d",
+      "sha256": "6e68c6e321cc6cf4af8f0e74b9771fbab6a4d37d20c5a0576348f6f898075c8a",
+      "bytes": 783
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/jobs/__init__.py",
+      "path": "components/content-platform/src/content_platform/jobs/__init__.py",
+      "source_sha256": "524fad034f48232e378c0e78fd499ea0585b945f6bde5a39d411180dacf5a5b1",
+      "sha256": "fd6a51b343ebc36b35f691c42ce4dd5370e8d58be25687d6e027c9406b2e580f",
+      "bytes": 67
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/jobs/consumer.py",
+      "path": "components/content-platform/src/content_platform/jobs/consumer.py",
+      "source_sha256": "221b5de435a02c387e50d7172163ba0a10dcbe6f411eaf74c64c0d10a45bb2e8",
+      "sha256": "597fb1dacf89bb3f01854f9faa9e89dddd95a274d13bb44e2cc06f922401b134",
+      "bytes": 2242
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/jobs/kafka_bridge.py",
+      "path": "components/content-platform/src/content_platform/jobs/kafka_bridge.py",
+      "source_sha256": "ae88548bf730831652f21528e863758ad29977e8fd1f500585178ebe67a0b336",
+      "sha256": "5a715dd94f08bb8ef5239ddaa00bd06c07866df80396e7020cb3bc0ffc505922",
+      "bytes": 11721
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/jobs/outbox.py",
+      "path": "components/content-platform/src/content_platform/jobs/outbox.py",
+      "source_sha256": "678a5ec7f1c93e8dfca56393773c76463a8f0a9e21a5c0f8059cd3f97783da2d",
+      "sha256": "724fd3e1b968670168cb43d4ac87c2bfef12214b9bc38806b5ebf801c524c4bf",
+      "bytes": 7369
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/jobs/worker.py",
+      "path": "components/content-platform/src/content_platform/jobs/worker.py",
+      "source_sha256": "af7557b9897313c2110266d9cb09edfa929b877996dce115247028b2c85e351b",
+      "sha256": "af7557b9897313c2110266d9cb09edfa929b877996dce115247028b2c85e351b",
+      "bytes": 3193
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/notifications/__init__.py",
+      "path": "components/content-platform/src/content_platform/notifications/__init__.py",
+      "source_sha256": "a946151e9ba95c6bc786aaf57318d0efc661e676be3d9d75cd45689506a6cf06",
+      "sha256": "a946151e9ba95c6bc786aaf57318d0efc661e676be3d9d75cd45689506a6cf06",
+      "bytes": 38
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/notifications/service.py",
+      "path": "components/content-platform/src/content_platform/notifications/service.py",
+      "source_sha256": "2ad7b1ec3d493c323971e13d727f33f0eeaca4bb3b2ea61c83740db82dead5cc",
+      "sha256": "2ad7b1ec3d493c323971e13d727f33f0eeaca4bb3b2ea61c83740db82dead5cc",
+      "bytes": 631
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/projection.py",
+      "path": "components/content-platform/src/content_platform/projection.py",
+      "source_sha256": "ec69901a893f6097028e60bed1a05c395a20a74b3c79e88124bdb097e30a6328",
+      "sha256": "ec69901a893f6097028e60bed1a05c395a20a74b3c79e88124bdb097e30a6328",
+      "bytes": 7650
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/search/__init__.py",
+      "path": "components/content-platform/src/content_platform/search/__init__.py",
+      "source_sha256": "bfc70b43f9a38ec7a678307b86f101b6c4662496bd1faadaf6730e43e0d690a9",
+      "sha256": "bfc70b43f9a38ec7a678307b86f101b6c4662496bd1faadaf6730e43e0d690a9",
+      "bytes": 30
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/search/service.py",
+      "path": "components/content-platform/src/content_platform/search/service.py",
+      "source_sha256": "151c5c3343c3755db8eaf3faaad3c25e93be40ccc0fab0b76767db3c2d4d30dd",
+      "sha256": "151c5c3343c3755db8eaf3faaad3c25e93be40ccc0fab0b76767db3c2d4d30dd",
+      "bytes": 1165
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/storage/__init__.py",
+      "path": "components/content-platform/src/content_platform/storage/__init__.py",
+      "source_sha256": "85dbf671bc60f4ffe7b6345d8fb2916d9c1c1fcdd79bd92cef660f741d98834c",
+      "sha256": "039884a50aa02839bee83465821fa3ef27db7756edccc6bb7bb077763e373206",
+      "bytes": 72
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/storage/database.py",
+      "path": "components/content-platform/src/content_platform/storage/database.py",
+      "source_sha256": "57b641409426b0fbfef17acd6ed938c300ad86da735bb6221d640677b66c0b93",
+      "sha256": "4b686ecd5bbcaa022fde1ae25ed69de384e6578c0bcd53af04f5b1b8e20611a4",
+      "bytes": 8622
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/storage/migrations.py",
+      "path": "components/content-platform/src/content_platform/storage/migrations.py",
+      "source_sha256": "7762470457bae09ff4f9f33c14d57faea936c8566bf93852924c529fdac17c14",
+      "sha256": "4ce4171b443a2da2d4b0a4d9e0dab0e17206d9240ca7210aa0263d85e408112b",
+      "bytes": 16307
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/storage/repositories.py",
+      "path": "components/content-platform/src/content_platform/storage/repositories.py",
+      "source_sha256": "0e96da069cbe28cbd0c6fc9256725e82203c1228265bdbb43a5234a09aa44303",
+      "sha256": "758520706fbfcebabcb48564335e7fa682eafc6eec21e377506eac3945eae8e5",
+      "bytes": 17136
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/telemetry/__init__.py",
+      "path": "components/content-platform/src/content_platform/telemetry/__init__.py",
+      "source_sha256": "0b9153db98e72fd49de2df2686b9b13cfa4a09dc6659c763816e5ca1b41ed236",
+      "sha256": "1ff79663e7b4eabbf7639b588836f1f77f1e357bc49f9dcac2cacb45b37d3d54",
+      "bytes": 52
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/telemetry/http_metrics.py",
+      "path": "components/content-platform/src/content_platform/telemetry/http_metrics.py",
+      "source_sha256": "c06293d36576d15b27ab0aa4eaf70bab418c7bccf24d3fbde897812b7413f5be",
+      "sha256": "c06293d36576d15b27ab0aa4eaf70bab418c7bccf24d3fbde897812b7413f5be",
+      "bytes": 2241
+    },
+    {
+      "source": "project_ContentPlatform/src/content_platform/timeutil.py",
+      "path": "components/content-platform/src/content_platform/timeutil.py",
+      "source_sha256": "f6ede0584c698f3647bb4465bd50ad9b66590002dbc36f5d54a47566813056a3",
+      "sha256": "6f50c948e1c0a55e23a30329035a80c4bcd1637039ac401062e5e24b2b3e72cd",
+      "bytes": 244
+    },
+    {
+      "source": "project_ContentPlatform/scripts/server.py",
+      "path": "components/content-platform/scripts/server.py",
+      "source_sha256": "02043c24c52eb46cae00400472bb3f18409fde7cb74cdb1e99c44c4643998164",
+      "sha256": "02043c24c52eb46cae00400472bb3f18409fde7cb74cdb1e99c44c4643998164",
+      "bytes": 5861
+    },
+    {
+      "source": "project_ContentPlatform/pyproject.toml",
+      "path": "components/content-platform/pyproject.toml",
+      "source_sha256": "1e00d8410783f9fb83895dc1d4107c7ead214737308b6723c9fa869b7d4dc30a",
+      "sha256": "6ff58437ce42a80a55afbf00279cb66c73bc17f3dc0c18888e37a9d6c26f9b10",
+      "bytes": 450
+    },
+    {
+      "source": "project_ContentPlatform/tests/test_projection.py",
+      "path": "components/content-platform/tests/test_projection.py",
+      "source_sha256": "e513680f3a865f589b62fdedf8632c35b78d124ce06b428d437866b801d8bd28",
+      "sha256": "e513680f3a865f589b62fdedf8632c35b78d124ce06b428d437866b801d8bd28",
+      "bytes": 9901
+    },
+    {
+      "source": "project_ContentPlatform/tests/test_platform.py",
+      "path": "components/content-platform/tests/test_platform.py",
+      "source_sha256": "af2beb952534fa07627de34c48a222e7980ac569790ca120da21704d8e6be251",
+      "sha256": "f83234259e6df42686301f3bc471ba92ac21f268db69424886bc52dcc3fbb421",
+      "bytes": 15223
+    },
+    {
+      "source": "project_ContentPlatform/tests/test_postgres_storage.py",
+      "path": "components/content-platform/tests/test_postgres_storage.py",
+      "source_sha256": "4f503a1bf0d66f1737196a81cf7fa8ed1fe4567b3ee2be35815ca478a8fd8b9e",
+      "sha256": "4f503a1bf0d66f1737196a81cf7fa8ed1fe4567b3ee2be35815ca478a8fd8b9e",
+      "bytes": 10836
+    },
+    {
+      "source": "project_ContentPlatform/tests/test_http_service.py",
+      "path": "components/content-platform/tests/test_http_service.py",
+      "source_sha256": "07deece7ec7c33c3f0e7369602b643a2d5f8ccd258c15bede4255be96c1f7d4d",
+      "sha256": "07deece7ec7c33c3f0e7369602b643a2d5f8ccd258c15bede4255be96c1f7d4d",
+      "bytes": 18978
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/pom.xml",
+      "path": "components/content-platform/backend-java/pom.xml",
+      "source_sha256": "747c982343b657a16adc08ba7287bc375b5ebeb17330113ccaa09a670ef7dfae",
+      "sha256": "747c982343b657a16adc08ba7287bc375b5ebeb17330113ccaa09a670ef7dfae",
+      "bytes": 3198
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/ApiController.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/ApiController.java",
+      "source_sha256": "11f844670d8e9156ac78f6b701d36d80d003734e3011467e8e083ff434277437",
+      "sha256": "11f844670d8e9156ac78f6b701d36d80d003734e3011467e8e083ff434277437",
+      "bytes": 12228
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/ApiExceptionHandler.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/ApiExceptionHandler.java",
+      "source_sha256": "01fee33ca7126dd1d402041bacdb4488584a9986b5cd569a62287db9004fc500",
+      "sha256": "01fee33ca7126dd1d402041bacdb4488584a9986b5cd569a62287db9004fc500",
+      "bytes": 2348
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/ApiTypes.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/ApiTypes.java",
+      "source_sha256": "ecf962ed324d1c7b3e1635e16d89724f08f7815048bd290f1f354297cb9b94d3",
+      "sha256": "ecf962ed324d1c7b3e1635e16d89724f08f7815048bd290f1f354297cb9b94d3",
+      "bytes": 2342
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/AuthRateLimiter.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/AuthRateLimiter.java",
+      "source_sha256": "413395686ecbc2f207d35617388a1fec43714d19709bf079b86dd16206c37a88",
+      "sha256": "413395686ecbc2f207d35617388a1fec43714d19709bf079b86dd16206c37a88",
+      "bytes": 1274
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/CachedReadService.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/CachedReadService.java",
+      "source_sha256": "0e41d294473b2c542cc2a19a6e3c7531dcae59b8077f5c06fba3fd57997fc9f9",
+      "sha256": "0e41d294473b2c542cc2a19a6e3c7531dcae59b8077f5c06fba3fd57997fc9f9",
+      "bytes": 5776
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/CacheStats.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/CacheStats.java",
+      "source_sha256": "16497863796ec7745f549c8fd25af3f14698697fdfe7b4d4192fcec54c5e4194",
+      "sha256": "16497863796ec7745f549c8fd25af3f14698697fdfe7b4d4192fcec54c5e4194",
+      "bytes": 862
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/ContentPlatformApplication.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/ContentPlatformApplication.java",
+      "source_sha256": "d68c4cc09cbb35577154f7c4d09fcdc0cc1c91513cb52c066c36f7693ffa79b4",
+      "sha256": "d68c4cc09cbb35577154f7c4d09fcdc0cc1c91513cb52c066c36f7693ffa79b4",
+      "bytes": 695
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/EventDeliveryProperties.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/EventDeliveryProperties.java",
+      "source_sha256": "0d163c706d3c65de68523fd309879abe1c143d3623f4952a2e4356ae6547828c",
+      "sha256": "0d163c706d3c65de68523fd309879abe1c143d3623f4952a2e4356ae6547828c",
+      "bytes": 1618
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/JacksonConfiguration.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/JacksonConfiguration.java",
+      "source_sha256": "ed3766b4ff3785e7a3351ee62fe0faeb1c709be1e7d54aa9aa14ec67bca23586",
+      "sha256": "ed3766b4ff3785e7a3351ee62fe0faeb1c709be1e7d54aa9aa14ec67bca23586",
+      "bytes": 677
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/KafkaListenerConfiguration.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/KafkaListenerConfiguration.java",
+      "source_sha256": "cd8cb18158227a094134692f7cd761f2861e70d7f0d66d226d0dae5cf7e4862e",
+      "sha256": "cd8cb18158227a094134692f7cd761f2861e70d7f0d66d226d0dae5cf7e4862e",
+      "bytes": 1701
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/KafkaModeConfiguration.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/KafkaModeConfiguration.java",
+      "source_sha256": "ae44d72537f235bbac4222bf002f28583472c62e2cca22d30b274e1a53d89493",
+      "sha256": "ae44d72537f235bbac4222bf002f28583472c62e2cca22d30b274e1a53d89493",
+      "bytes": 1237
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/KafkaNotificationListener.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/KafkaNotificationListener.java",
+      "source_sha256": "6353366e657f3471c00e7627ddb969d63f9b564cfce1e2f55e0618b9f8a87bdd",
+      "sha256": "6353366e657f3471c00e7627ddb969d63f9b564cfce1e2f55e0618b9f8a87bdd",
+      "bytes": 5775
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/KafkaOutboxRelay.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/KafkaOutboxRelay.java",
+      "source_sha256": "19a141402e4daf1dbf8d09ec8334ac11b78a33d29c9c440e5660a4a9583072b7",
+      "sha256": "19a141402e4daf1dbf8d09ec8334ac11b78a33d29c9c440e5660a4a9583072b7",
+      "bytes": 4302
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/KafkaProducerConfiguration.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/KafkaProducerConfiguration.java",
+      "source_sha256": "b8f0e80fb59fedf0ed3db1fc0699414b942bbdd6cae0d6a95579027d45ce28dc",
+      "sha256": "b8f0e80fb59fedf0ed3db1fc0699414b942bbdd6cae0d6a95579027d45ce28dc",
+      "bytes": 907
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/LocalOutboxDispatcher.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/LocalOutboxDispatcher.java",
+      "source_sha256": "2908af71b9b3181b86f0f7ac184ca3b2be3455b0c23b8b0d862017cf0a0dba13",
+      "sha256": "2908af71b9b3181b86f0f7ac184ca3b2be3455b0c23b8b0d862017cf0a0dba13",
+      "bytes": 1781
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/NotificationDeliveryService.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/NotificationDeliveryService.java",
+      "source_sha256": "c5152a846a286cb49e4fca0727de796d98ecc9873239b82856bbc009ae602bfb",
+      "sha256": "c5152a846a286cb49e4fca0727de796d98ecc9873239b82856bbc009ae602bfb",
+      "bytes": 4251
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/OutboxRelayRepository.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/OutboxRelayRepository.java",
+      "source_sha256": "a9be9b5c3f37b398b8db6f3eebbac34ef5ee4bbb1a968703767c04faa610d253",
+      "sha256": "a9be9b5c3f37b398b8db6f3eebbac34ef5ee4bbb1a968703767c04faa610d253",
+      "bytes": 2823
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/PayloadTooLargeException.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/PayloadTooLargeException.java",
+      "source_sha256": "0fbf131abed670cd8432e8db3f48a6e2ea88a6346db19a39408e70442690a07c",
+      "sha256": "0fbf131abed670cd8432e8db3f48a6e2ea88a6346db19a39408e70442690a07c",
+      "bytes": 230
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/PlatformException.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/PlatformException.java",
+      "source_sha256": "0735e3a18fe98966cf8cda6e3f151fe9bbfcb7dc5fa401058ce27b3fe75a16dc",
+      "sha256": "0735e3a18fe98966cf8cda6e3f151fe9bbfcb7dc5fa401058ce27b3fe75a16dc",
+      "bytes": 994
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/PlatformService.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/PlatformService.java",
+      "source_sha256": "5a3e791a0d7f1d26532e36fac568162d957dd0369d1dcf71f31410f5999ca0fc",
+      "sha256": "5a3e791a0d7f1d26532e36fac568162d957dd0369d1dcf71f31410f5999ca0fc",
+      "bytes": 24161
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/PoisonMessageException.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/PoisonMessageException.java",
+      "source_sha256": "2f9b507250ee23e9b8c7636eb445f9bc1ecf53a7229d8b7c40c80fd12632f440",
+      "sha256": "2f9b507250ee23e9b8c7636eb445f9bc1ecf53a7229d8b7c40c80fd12632f440",
+      "bytes": 357
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/ProjectionService.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/ProjectionService.java",
+      "source_sha256": "b13e50d54feea386a285f630e1f31ac0cfaa081b6c47fbc03e3ef8211b4bed55",
+      "sha256": "b13e50d54feea386a285f630e1f31ac0cfaa081b6c47fbc03e3ef8211b4bed55",
+      "bytes": 6529
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/RequestSizeLimitFilter.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/RequestSizeLimitFilter.java",
+      "source_sha256": "88d18475dbcf3c2aeaf00acf5387821d4f6ead367eaf6ee3079b9125fb8e9893",
+      "sha256": "88d18475dbcf3c2aeaf00acf5387821d4f6ead367eaf6ee3079b9125fb8e9893",
+      "bytes": 3438
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/SecurityConfiguration.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/SecurityConfiguration.java",
+      "source_sha256": "c4e3390a4343ef84fa906802411adeca62ecc2545d7df88258b6ff09beda53c0",
+      "sha256": "c4e3390a4343ef84fa906802411adeca62ecc2545d7df88258b6ff09beda53c0",
+      "bytes": 1338
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/StaticAssetController.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/StaticAssetController.java",
+      "source_sha256": "dad8d2885eba684eea1eba301f064c3479fd85965cbc454d3bda9702ac62f757",
+      "sha256": "dad8d2885eba684eea1eba301f064c3479fd85965cbc454d3bda9702ac62f757",
+      "bytes": 4081
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/java/org/neurips/contentplatform/UtcTimestamps.java",
+      "path": "components/content-platform/backend-java/src/main/java/org/neurips/contentplatform/UtcTimestamps.java",
+      "source_sha256": "1a6d2bb95314efbfd27c9e253da7080433af6b2597140d8ba6cc11280b682c35",
+      "sha256": "1a6d2bb95314efbfd27c9e253da7080433af6b2597140d8ba6cc11280b682c35",
+      "bytes": 453
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/resources/application-kafka.yml",
+      "path": "components/content-platform/backend-java/src/main/resources/application-kafka.yml",
+      "source_sha256": "15bed854b9fb18a8a9f81beddb19c57a8bc864f93f5d680c4ff982f024b56222",
+      "sha256": "15bed854b9fb18a8a9f81beddb19c57a8bc864f93f5d680c4ff982f024b56222",
+      "bytes": 47
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/resources/application.yml",
+      "path": "components/content-platform/backend-java/src/main/resources/application.yml",
+      "source_sha256": "4d140a88e58764f21a629bc0e40d4d19cb015c5daf0dc31b3186edbc38f582af",
+      "sha256": "4d140a88e58764f21a629bc0e40d4d19cb015c5daf0dc31b3186edbc38f582af",
+      "bytes": 2890
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/resources/db/migration/common/V1__content_platform_core.sql",
+      "path": "components/content-platform/backend-java/src/main/resources/db/migration/common/V1__content_platform_core.sql",
+      "source_sha256": "86a2fcc371bcf740173eed90fccdfd5fae8eea17850cccbbcaaa6ea8f741f860",
+      "sha256": "86a2fcc371bcf740173eed90fccdfd5fae8eea17850cccbbcaaa6ea8f741f860",
+      "bytes": 4908
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/main/resources/db/migration/postgresql/V2__postgres_search_and_immutable_projection.sql",
+      "path": "components/content-platform/backend-java/src/main/resources/db/migration/postgresql/V2__postgres_search_and_immutable_projection.sql",
+      "source_sha256": "26ad1a0f21c6a7bd1b56b1968e61c5fe0cacecd1c274288baedeef3a1ca711a6",
+      "sha256": "26ad1a0f21c6a7bd1b56b1968e61c5fe0cacecd1c274288baedeef3a1ca711a6",
+      "bytes": 912
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/test/java/org/neurips/contentplatform/ContentPlatformHttpIntegrationTest.java",
+      "path": "components/content-platform/backend-java/src/test/java/org/neurips/contentplatform/ContentPlatformHttpIntegrationTest.java",
+      "source_sha256": "d35a1fd6ef8e00c1997c478de5eed33dec24752cdee61dfcddf3407e83cb2e69",
+      "sha256": "d35a1fd6ef8e00c1997c478de5eed33dec24752cdee61dfcddf3407e83cb2e69",
+      "bytes": 13082
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/test/java/org/neurips/contentplatform/KafkaNotificationListenerTest.java",
+      "path": "components/content-platform/backend-java/src/test/java/org/neurips/contentplatform/KafkaNotificationListenerTest.java",
+      "source_sha256": "ddc653427bb46fa9ab7ee29ae72a74df3f2b7e8364153d802fd32c7cd1f41c3a",
+      "sha256": "ddc653427bb46fa9ab7ee29ae72a74df3f2b7e8364153d802fd32c7cd1f41c3a",
+      "bytes": 6334
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/test/java/org/neurips/contentplatform/KafkaOutboxRelayTest.java",
+      "path": "components/content-platform/backend-java/src/test/java/org/neurips/contentplatform/KafkaOutboxRelayTest.java",
+      "source_sha256": "1eb4bf6ee52e026dc563ac40974476a1c465fcebde3bebf2ae586078b0d4aca8",
+      "sha256": "1eb4bf6ee52e026dc563ac40974476a1c465fcebde3bebf2ae586078b0d4aca8",
+      "bytes": 1833
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/test/java/org/neurips/contentplatform/KafkaProducerConfigurationTest.java",
+      "path": "components/content-platform/backend-java/src/test/java/org/neurips/contentplatform/KafkaProducerConfigurationTest.java",
+      "source_sha256": "58beef21c1ca58add056ef2ecf71ee732060f17723b5f1796b11100fc161fa37",
+      "sha256": "58beef21c1ca58add056ef2ecf71ee732060f17723b5f1796b11100fc161fa37",
+      "bytes": 1966
+    },
+    {
+      "source": "project_ContentPlatform/backend-java/src/test/java/org/neurips/contentplatform/StaticAssetControllerTest.java",
+      "path": "components/content-platform/backend-java/src/test/java/org/neurips/contentplatform/StaticAssetControllerTest.java",
+      "source_sha256": "992bc97e676b5c4faa0c8fe62edb567560c94f92234c65defbadd39280ee538a",
+      "sha256": "992bc97e676b5c4faa0c8fe62edb567560c94f92234c65defbadd39280ee538a",
+      "bytes": 2983
+    },
+    {
+      "source": "project_ContentPlatform/web/index.html",
+      "path": "components/content-platform/web/index.html",
+      "source_sha256": "5d9441845274b9d3abf3fa4d84b6d4a248a389bb1fe2ea90c2f9a6e97d037a2c",
+      "sha256": "5d9441845274b9d3abf3fa4d84b6d4a248a389bb1fe2ea90c2f9a6e97d037a2c",
+      "bytes": 791
+    },
+    {
+      "source": "project_ContentPlatform/web/styles.css",
+      "path": "components/content-platform/web/styles.css",
+      "source_sha256": "f10c415af07c665b4e968e05fa8187bf1ebc9dafd4085856df1246c57b4b6d83",
+      "sha256": "f10c415af07c665b4e968e05fa8187bf1ebc9dafd4085856df1246c57b4b6d83",
+      "bytes": 13082
+    },
+    {
+      "source": "project_ContentPlatform/web/src/api.ts",
+      "path": "components/content-platform/web/src/api.ts",
+      "source_sha256": "17736ee52015314e56b6dd92282d9b8a9641fc33f639473bccdab85e1da34ef1",
+      "sha256": "17736ee52015314e56b6dd92282d9b8a9641fc33f639473bccdab85e1da34ef1",
+      "bytes": 2423
+    },
+    {
+      "source": "project_ContentPlatform/web/src/app.tsx",
+      "path": "components/content-platform/web/src/app.tsx",
+      "source_sha256": "6b3539e0ea778957d43a5913cf7d874af8e553bc6162ae1a66b1ed1b103eec6f",
+      "sha256": "6b3539e0ea778957d43a5913cf7d874af8e553bc6162ae1a66b1ed1b103eec6f",
+      "bytes": 34000
+    },
+    {
+      "source": "project_ContentPlatform/web/src/main.tsx",
+      "path": "components/content-platform/web/src/main.tsx",
+      "source_sha256": "f78b4e7a4bfa9877073b033111890acd148ddc0230e47f8e8cb1046a05f38d9a",
+      "sha256": "f78b4e7a4bfa9877073b033111890acd148ddc0230e47f8e8cb1046a05f38d9a",
+      "bytes": 226
+    },
+    {
+      "source": "project_ContentPlatform/web/scripts/copy-bundle.mjs",
+      "path": "components/content-platform/web/scripts/copy-bundle.mjs",
+      "source_sha256": "6fed764de346e33c40897d76f5cbb8e628aec719e7710097d4ce8495df19b731",
+      "sha256": "6fed764de346e33c40897d76f5cbb8e628aec719e7710097d4ce8495df19b731",
+      "bytes": 145
+    },
+    {
+      "source": "project_ContentPlatform/web/package.json",
+      "path": "components/content-platform/web/package.json",
+      "source_sha256": "6f0c4a426111c6c4e7df8ce695a4c6a859a601288405a0ca6c964ab9e74cd9a7",
+      "sha256": "6f0c4a426111c6c4e7df8ce695a4c6a859a601288405a0ca6c964ab9e74cd9a7",
+      "bytes": 486
+    },
+    {
+      "source": "project_ContentPlatform/web/package-lock.json",
+      "path": "components/content-platform/web/package-lock.json",
+      "source_sha256": "6ab38e6c18df8d05fd5d09afbf447e20fed9bc56dcfe3d9dd3e52173a185e58c",
+      "sha256": "6ab38e6c18df8d05fd5d09afbf447e20fed9bc56dcfe3d9dd3e52173a185e58c",
+      "bytes": 61951
+    },
+    {
+      "source": "project_ContentPlatform/web/tsconfig.json",
+      "path": "components/content-platform/web/tsconfig.json",
+      "source_sha256": "8c096e4142565c389faf2c365fd9b9c3cf719690b4d7e31715dc5f0bd3b1cb4e",
+      "sha256": "8c096e4142565c389faf2c365fd9b9c3cf719690b4d7e31715dc5f0bd3b1cb4e",
+      "bytes": 521
+    },
+    {
+      "source": "project_ContentPlatform/web/vite.config.ts",
+      "path": "components/content-platform/web/vite.config.ts",
+      "source_sha256": "08aab957b99d3a6054271055ddb876745ae212d143454974c539ce54d2413b2f",
+      "sha256": "08aab957b99d3a6054271055ddb876745ae212d143454974c539ce54d2413b2f",
+      "bytes": 520
+    },
+    {
+      "source": "project_ContentPlatform/web/README.md",
+      "path": "components/content-platform/web/README.md",
+      "source_sha256": "6a3aff9ed4a2faf3f2dba6c4f1a6c50372d1804c23ca0ff2f65c82b33ffac7de",
+      "sha256": "6a3aff9ed4a2faf3f2dba6c4f1a6c50372d1804c23ca0ff2f65c82b33ffac7de",
+      "bytes": 584
+    }
+  ],
+  "file_count": 119,
+  "total_bytes": 629017,
+  "privacy_scan_findings": [],
+  "project_tests_executed": false,
+  "historical_doc_link_adaptations": [],
+  "notes": [
+    "Source packaging and static inspection only.",
+    "Source paths are repository/workspace-relative provenance, not runtime dependencies."
+  ]
+}
