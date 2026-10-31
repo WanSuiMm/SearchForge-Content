@@ -13,6 +13,10 @@ SearchForge Content 把公开内容发布事件投影到独立的 SQLite FTS5 �
 7. `components/content-platform/` 和 `tests/`：源端参考实现及本地验证代码。
 8. [PACKAGE_PLAN.json](PACKAGE_PLAN.json)：来源、目标路径、排除项、导入路径改造和组件许可证信息。
 
+## 后续检索优化复测
+
+作者后续在同一 351,673 条正文、175 个 FreshStack 问题、top 10 的口径下完成优化复测，Recall@10 为 BM25 **44.02%**、dense **26.51%**、RRF **54.98%**、RRF+CrossEncoder **68.53%**；重排组较 RRF 高 13.55 个百分点。该轮自测汇总与早期 R02 分别保留，没有覆盖 R02 的原始结果和负向表现。优化配置、逐题排名及原始日志未随公开包发布，具体来源与范围见 [RESULTS.md](RESULTS.md)。
+
 ## 已实现的功能切片
 
 - ContentPlatform 在一次发布事务中写入内容和独立的 `content.published` 投影事件；通知 Outbox 与索引消费者回执彼此独立。

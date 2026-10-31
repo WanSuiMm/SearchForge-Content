@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "SearchForge Content",
-  "prepared_on": "2026-10-31",
+  "prepared_on": "2026-11-01",
   "files": [
     {
       "source": "project_SearchForgeContent/github_public/.gitignore",
@@ -13,23 +13,23 @@
     {
       "source": "project_SearchForgeContent/github_public/README.md",
       "path": "README.md",
-      "source_sha256": "b01d05d4a8f11f1a90d9ecabf1f2d2538285f9f789593b9e8c3a6180f2ec202c",
-      "sha256": "b01d05d4a8f11f1a90d9ecabf1f2d2538285f9f789593b9e8c3a6180f2ec202c",
-      "bytes": 6209
+      "source_sha256": "78c0eb5f3b639cbac64a7a5ee6156ce0780a692b15fdfc6ba571ca9d67b4d63f",
+      "sha256": "78c0eb5f3b639cbac64a7a5ee6156ce0780a692b15fdfc6ba571ca9d67b4d63f",
+      "bytes": 6705
     },
     {
       "source": "project_SearchForgeContent/github_public/GPT_CONTEXT.md",
       "path": "GPT_CONTEXT.md",
-      "source_sha256": "9491d93bf94580044def7a204637f19172b5c8d0289eb988b997d5927412126a",
-      "sha256": "9491d93bf94580044def7a204637f19172b5c8d0289eb988b997d5927412126a",
-      "bytes": 5067
+      "source_sha256": "0ba3c506936d8cf79a1177e44488a7991af3563da592521357e5f70c7f9b1589",
+      "sha256": "0ba3c506936d8cf79a1177e44488a7991af3563da592521357e5f70c7f9b1589",
+      "bytes": 5599
     },
     {
       "source": "project_SearchForgeContent/github_public/RESULTS.md",
       "path": "RESULTS.md",
-      "source_sha256": "e7f14985437641c7d5d3c3cab4207ec6d0b32298cc148299a04d84672f4c29b3",
-      "sha256": "e7f14985437641c7d5d3c3cab4207ec6d0b32298cc148299a04d84672f4c29b3",
-      "bytes": 5058
+      "source_sha256": "0c479e4e3c0e5cce16c380ca5f58989a6e528c5c0c9d2739ce1707e8ff475854",
+      "sha256": "0c479e4e3c0e5cce16c380ca5f58989a6e528c5c0c9d2739ce1707e8ff475854",
+      "bytes": 5346
     },
     {
       "source": "project_SearchForgeContent/github_public/ARCHITECTURE.md",
@@ -838,12 +838,13 @@
     }
   ],
   "file_count": 119,
-  "total_bytes": 629017,
+  "total_bytes": 630333,
   "privacy_scan_findings": [],
   "project_tests_executed": false,
   "historical_doc_link_adaptations": [],
   "notes": [
     "Source packaging and static inspection only.",
-    "Source paths are repository/workspace-relative provenance, not runtime dependencies."
+    "Source paths are repository/workspace-relative provenance, not runtime dependencies.",
+    "2026-11-01: Markdown timeline and measurement-cohort clarification only; implementation and saved experiment results unchanged."
   ]
 }
